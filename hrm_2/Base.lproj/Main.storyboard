@@ -54,7 +54,13 @@
                             <constraint firstItem="xM9-E6-vwN" firstAttribute="leading" secondItem="ySd-L1-qAP" secondAttribute="leadingMargin" constant="-20" id="zdp-sK-BGP"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Department List" id="s2h-GG-ouc"/>
+                    <navigationItem key="navigationItem" title="Department List" id="s2h-GG-ouc">
+<<<<<<< HEAD
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="n4z-3x-uvX"/>
+=======
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="AwN-HH-G1E"/>
+>>>>>>> cc4ea4f... 47023_employee_screen_designI
+                    </navigationItem>
                     <connections>
                         <outlet property="searchDisplayController" destination="3Je-4Z-KKj" id="4Gy-fq-bLc"/>
                     </connections>
@@ -70,7 +76,11 @@
                     </connections>
                 </searchDisplayController>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="1709" y="400"/>
+=======
+            <point key="canvasLocation" x="1624.5" y="400"/>
+>>>>>>> cc4ea4f... 47023_employee_screen_designI
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kaU-cQ-7ji">

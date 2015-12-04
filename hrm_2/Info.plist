@@ -25,7 +25,11 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
+<<<<<<< HEAD
 	<string>Main</string>
+=======
+	<string>EmployeeInfoViewStoryboard</string>
+>>>>>>> cc4ea4f... 47023_employee_screen_designI
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
