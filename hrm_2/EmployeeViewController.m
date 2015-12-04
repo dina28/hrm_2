@@ -8,8 +8,7 @@
 
 #import "EmployeeViewController.h"
 
-@interface EmployeeViewController ()
-{
+@interface EmployeeViewController (){
     NSArray *_pickerData;
 }
 @end
@@ -33,31 +32,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (long)numberOfComponentsInPickerView:(UIPickerView *)pickerView
-{
+- (long)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
     return 1;
 }
 
 // The number of rows of data
-- (long)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
-{
+- (long)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
     return _pickerData.count;
 }
-
 // The data to return for the row and component (column) that's being passed in
-- (NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
-{
+- (NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
     return _pickerData[row];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end
